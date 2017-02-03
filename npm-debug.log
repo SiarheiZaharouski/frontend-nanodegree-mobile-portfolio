@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Programms\\Node\\node.exe',
+1 verbose cli   'D:\\Programms\\Node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ngrok',
+1 verbose cli   '–save-dev' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ngrok
+8 silly fetchPackageMetaData –save-dev
+9 silly fetchNamedPackageData ngrok
+10 silly mapToRegistry name ngrok
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'ngrok',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'ngrok',
+13 silly mapToRegistry   name: 'ngrok',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/ngrok
+15 silly fetchOtherPackageData –save-dev
+16 silly cache add args [ '–save-dev', null ]
+17 verbose cache add spec –save-dev
+18 verbose request uri https://registry.npmjs.org/ngrok
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 15:39:17
+21 verbose request id b55cc6213386c515
+22 http request GET https://registry.npmjs.org/ngrok
+23 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '–save-dev',
+24 silly cache add   scope: null,
+24 silly cache add   escapedName: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '–save-dev',
+24 silly cache add   spec: 'C:\\Users\\Eska.Eskalart-ПК\\Desktop\\frontend-nanodegree-mobile-portfolio\\–save-dev',
+24 silly cache add   type: 'local' }
+25 error addLocal Could not install C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev
+26 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev'
+26 silly fetchPackageMetaData  error for –save-dev { Error: ENOENT: no such file or directory, open 'C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev'
+26 silly fetchPackageMetaData   errno: -4058,
+26 silly fetchPackageMetaData   code: 'ENOENT',
+26 silly fetchPackageMetaData   syscall: 'open',
+26 silly fetchPackageMetaData   path: 'C:\\Users\\Eska.Eskalart-ПК\\Desktop\\frontend-nanodegree-mobile-portfolio\\–save-dev' }
+27 info attempt registry request try #2 at 15:39:27
+28 http request GET https://registry.npmjs.org/ngrok
+29 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+30 info attempt registry request try #3 at 15:40:27
+31 http request GET https://registry.npmjs.org/ngrok
+32 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+32 silly fetchPackageMetaData     at ClientRequest.setHeader (_http_outgoing.js:370:11)
+32 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+32 silly fetchPackageMetaData     at Object.request (http.js:26:10)
+32 silly fetchPackageMetaData     at Object.request (https.js:199:15)
+32 silly fetchPackageMetaData     at Request.start (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:744:32)
+32 silly fetchPackageMetaData     at Request.end (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:1435:10)
+32 silly fetchPackageMetaData     at end (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:566:14)
+32 silly fetchPackageMetaData     at Immediate.<anonymous> (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:580:7)
+32 silly fetchPackageMetaData     at runCallback (timers.js:651:20)
+32 silly fetchPackageMetaData     at tryOnImmediate (timers.js:624:5)
+32 silly fetchPackageMetaData  error for ngrok TypeError: The header content contains invalid characters
+32 silly fetchPackageMetaData     at ClientRequest.setHeader (_http_outgoing.js:370:11)
+32 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+32 silly fetchPackageMetaData     at Object.request (http.js:26:10)
+32 silly fetchPackageMetaData     at Object.request (https.js:199:15)
+32 silly fetchPackageMetaData     at Request.start (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:744:32)
+32 silly fetchPackageMetaData     at Request.end (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:1435:10)
+32 silly fetchPackageMetaData     at end (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:566:14)
+32 silly fetchPackageMetaData     at Immediate.<anonymous> (D:\Programms\Node\node_modules\npm\node_modules\request\request.js:580:7)
+32 silly fetchPackageMetaData     at runCallback (timers.js:651:20)
+32 silly fetchPackageMetaData     at tryOnImmediate (timers.js:624:5)
+33 silly rollbackFailedOptional Starting
+34 silly rollbackFailedOptional Finishing
+35 silly runTopLevelLifecycles Finishing
+36 silly install printInstalled
+37 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev'
+38 verbose cwd C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio
+39 error Windows_NT 6.1.7601
+40 error argv "D:\\Programms\\Node\\node.exe" "D:\\Programms\\Node\\node_modules\\npm\\bin\\npm-cli.js" "install" "ngrok" "–save-dev"
+41 error node v7.4.0
+42 error npm  v4.0.5
+43 error path C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev
+44 error code ENOENT
+45 error errno -4058
+46 error syscall open
+47 error enoent ENOENT: no such file or directory, open 'C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev'
+48 error enoent ENOENT: no such file or directory, open 'C:\Users\Eska.Eskalart-ПК\Desktop\frontend-nanodegree-mobile-portfolio\–save-dev'
+48 error enoent This is most likely not a problem with npm itself
+48 error enoent and is related to npm not being able to find a file.
+49 verbose exit [ -4058, true ]

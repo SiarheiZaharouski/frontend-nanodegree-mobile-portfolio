@@ -2,17 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" content="width=device-width">
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
-
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <style>
+     html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+}
+body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
+body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
+img, link {Cache-control: max-age = 2629000;}
 
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet">
-
+    </style>
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
@@ -21,7 +28,7 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <script src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
   </head>
 
@@ -64,9 +71,23 @@
         </ul>
       </div>
 
+    <header>
+      <a href="/"><img src="img/photo.png"></a>
+      <p>Загоровский Сергей Владимирович</p>
+    </header>
+
+    <div class="container">
+      <div class="hero">
+          Номер телефона: life:) +37525 540-30-83
+         <br> e-mail: ride1992@gmail.com
+      </div>
+
       <footer>
         <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
       </footer>
     </div>
   </body>
 </html>
+<link href="css/print.css" rel="stylesheet" media="print">
+<link href="css/style.css" rel="stylesheet" async>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" async>
